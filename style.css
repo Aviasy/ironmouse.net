@@ -92,6 +92,8 @@
 
 .column .middle{
   width: 75%;
+  background-color: #fffafa;
+  margin-left: 10px;
 }
 
 .row:after{
