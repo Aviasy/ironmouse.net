@@ -65,17 +65,22 @@
   float: left;
 }
 
+/* side */
+
 .column .side{
   width: 25%;
+  background-color: #ededed;
 }
 
-.side p{
+/* middle */
+
+.middle p{
   text-align: center;
   font-family: "comic sans", arial, "times new roman";
   font-size: 11px;
 }
 
-.side h3{
+.middle h3{
   font-family: "comic sans", arial, "times new roman";
   text-align: center;
 }
