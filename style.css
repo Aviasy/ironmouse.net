@@ -63,14 +63,24 @@
 
 .column{
   float: left;
-  padding: 5px;
 }
 
-.column.side{
+.column .side{
   width: 25%;
+  float: right;
 }
 
-.column.middle{
+.side p{
+  text-align: center;
+  font-family: "comic sans", arial, "times new roman";
+  font-size: 16px;
+}
+
+.side h3{
+  font-family: "comic sans", arial, "times new roman";
+}
+
+.column .middle{
   width: 75%;
 }
 
