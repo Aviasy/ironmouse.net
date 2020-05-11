@@ -5,7 +5,7 @@
   text-decoration: none;
 }
  
-/**/
+/* header */
 
 .headerContainer{
   width: 100%;
@@ -28,7 +28,7 @@
   float: left;
 }
 
-/**/
+/* navigation bar */
 
 .navigation{
   float: right;
@@ -59,7 +59,34 @@
   color: #77DD77;
 }
 
-/**/
+/* body */
+
+.column{
+  float: left;
+  padding: 5px;
+}
+
+.column.side{
+  width: 25%;
+}
+
+.column.middle{
+  width: 75%;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen(max-width: 600px){
+  .column.side, .column.middle{
+    width: 100%;
+  }
+}
+
+/* footer */
 
 .footerContainer{
   width: 100vw;
@@ -118,7 +145,7 @@
   padding-bottom: 5px;
 }
 
-@media(max-width: 450px){
+@media(max-width: 600px){
   .footerContainer .innerFooter{
     width: 90%;
   }
