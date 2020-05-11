@@ -75,14 +75,14 @@
 /* middle */
 
 .middle p{
-  text-align: center;
   font-family: "comic sans", arial, "times new roman";
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .middle h3{
   font-family: "comic sans", arial, "times new roman";
-  text-align: center;
+  text-align: left;
+  padding: 5px;
 }
 
 .middle h1{
