@@ -126,6 +126,13 @@ body{
     width: 100%;
   }
 }
+/* media */
+
+.gallery img{
+  width: 100%;
+  height: auto;
+  margin-left: 0 auto;
+}
 
 /* about */
 
