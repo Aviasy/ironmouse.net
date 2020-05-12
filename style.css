@@ -5,6 +5,10 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+
+html{
+  height: 100%;
+}
  
 /* header */
 
@@ -65,6 +69,7 @@
 
 body{
   backround-color: #fffafa;
+  height: 100%;
 }
 
 .column{
@@ -148,6 +153,7 @@ body{
 /* footer */
 
 .footerContainer{
+  margin-top: auto;
   width: 100%;
   display: block;
   overflow: hidden;
