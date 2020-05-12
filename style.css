@@ -115,7 +115,8 @@
   background: #77DD77;
   padding: 20px; 
   width: 85%;
-  height: auto; 
+  height: auto;
+  margin: auto;
 }
 
 .about p{
