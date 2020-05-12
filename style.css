@@ -128,10 +128,9 @@
 /* embed */
 
 #twith-embed{
-  padding: 0 10px;
-  width: 100%;
-  height: auto;
-  vertical-align: middle;
+  padding: 20px;
+  width: 1024px;
+  height: 576px;
   margin: auto;
 }
 
