@@ -173,6 +173,7 @@
   }
   .innerFooter .notice,
   .innerFooter .footerThird{
+    text-align: center;
     width: 100%;
     margin-bottom: 30px;
   }
