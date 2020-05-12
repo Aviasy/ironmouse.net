@@ -87,6 +87,10 @@ body{
 
 /* middle */
 
+.welcomeLandingBackground{
+  background-color: #262626;
+}
+
 .middle p{
   font-family: "comic sans", arial, "times new roman";
   font-size: 16px;
