@@ -134,12 +134,11 @@ body{
 /* embed */
 
 #twitch-embed{
-  width: 90%;
+  width: 100%;
   height: auto;
   background: #000;
-  border-radius: 25px;
   overflow: hidden;
-  padding: 20px;
+  padding: 15px;
   justify-content: center;
   align-items: center;
   margin: 0;
