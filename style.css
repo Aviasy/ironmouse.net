@@ -26,6 +26,7 @@
 .logo{
   height: 100%;
   display: table;
+  border-color: #262626;
   float: left;
 }
 
