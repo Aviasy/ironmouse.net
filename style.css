@@ -133,6 +133,10 @@ body{
 
 /* embed */
 
+.twitchEmbed{
+  margin: auto;
+}
+
 #twitch-embed{
   width: 100%;
   height: auto;
