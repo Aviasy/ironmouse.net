@@ -128,9 +128,8 @@
 /* embed */
 
 #twitch-embed{
+  overflow: hidden;
   padding: 20px;
-  width: 1024px;
-  height: 576px;
   margin: auto;
 }
 
