@@ -108,6 +108,22 @@
   }
 }
 
+/* about */
+
+.aboutContainer{
+  border-radius: 25px;
+  background: #77DD77;
+  padding: 20px; 
+  width: 85%;
+  height: auto; 
+}
+
+.about p{
+  font-family: "comic sans", arial, "times new roman";
+  text-align: center;
+  color: #fffafa;
+}
+
 /* footer */
 
 .footerContainer{
