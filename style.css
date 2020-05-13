@@ -118,7 +118,7 @@ body{
 
 .themeWeek, .themeWeek p{
   font-family: "comic sans", arial, "times new roman";
-  display: inline-block;
+  display: inline;
   width: 100%;
   height: auto;
   float: left;
