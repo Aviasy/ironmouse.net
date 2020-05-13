@@ -93,11 +93,10 @@ body{
   height: auto;
 }
 
-.welcomeLanding{
+.welcomeLanding h1, p{
   font-family: "comic sans", arial, "times new roman";
   color: #fffafa;
-  text-align: left;
-  margin-left: 35px;
+  text-align: center;
 }
 
 .middle p{
