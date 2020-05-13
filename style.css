@@ -116,6 +116,17 @@ body{
   text-align: center;
 }
 
+.themeWeek, .themeWeek p{
+  font-family: "comic sans", arial, "times new roman";
+  float: left;
+}
+
+.themeWeek p{
+  padding: 5px;
+  background: #77DD77;
+  border-radius: 15px;
+}
+
 .column .middle{
   width: 75%;
   background-color: #fffafa;
