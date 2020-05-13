@@ -85,7 +85,7 @@ body{
   background-color: #ededed;
 }
 
-.sideBar img{
+.column .side .sideBar img{
   width: 25%;
   height: auto;
   margin-right: 0;
