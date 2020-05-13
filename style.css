@@ -88,9 +88,17 @@ body{
 /* middle */
 
 .welcomeLandingBackground{
+  background-image: url(welcomeLanding.png);
   background-color: #262626;
   width: 100%;
   height: auto;
+}
+
+.welcomeLanding{
+  font-family: "comic sans", arial, "times new roman";
+  color: #fffafa;
+  text-align: left;
+  margin-left: 35px;
 }
 
 .middle p{
