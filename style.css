@@ -81,6 +81,7 @@ body{
 /* side */
 
 .column .side{
+  display: block;
   width: 25%;
 }
 
@@ -117,10 +118,10 @@ body{
 
 .themeWeek, .themeWeek p{
   font-family: "comic sans", arial, "times new roman";
-  display: inline;
+  display: inline-block;
   width: 100%;
   height: auto;
-  float: left;
+  vertical-align: middle;
 }
 
 .themeWeek p{
@@ -130,6 +131,7 @@ body{
 }
 
 .column .middle{
+  display: block;
   width: 75%;
   background-color: #fffafa;
 }
