@@ -90,8 +90,8 @@ body{
 .welcomeLandingBackground{
   background-image: url(welcomeLanding.png);
   background-color: #262626;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 .welcomeLanding h1, p{
@@ -153,6 +153,7 @@ body{
   width: 100%;
   height: auto;
   margin-left: 0 auto;
+  margin-top: 0;
 }
 
 /* about */
@@ -179,8 +180,8 @@ body{
 }
 
 #twitch-embed{
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
   background: #000;
   padding: 15px;
   margin: 0;
