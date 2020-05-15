@@ -90,8 +90,6 @@ body{
 .welcomeLandingBackground{
   background-image: url(welcomeLanding.png);
   background-color: #262626;
-  width: auto;
-  height: 100%;
 }
 
 .welcomeLanding h1, p{
