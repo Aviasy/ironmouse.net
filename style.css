@@ -76,14 +76,13 @@ body{
 }
 
 .column{
-  display: grid;
-  grid-template-column: 3fr 1fr;
+  
 }
 
 /* side */
 
 .column .side{
-  grid-column: 1/2;
+  
 }
 
 /* middle */
@@ -91,14 +90,12 @@ body{
 .welcomeLandingBackground{
   background-image: url(welcomeLanding.png);
   background-color: #262626;
-  grid-row: 1;
 }
 
 .welcomeLanding h1, p{
   font-family: "comic sans", arial, "times new roman";
   color: #fffafa;
   text-align: center;
-  grid-row: 1;
 }
 
 .middle p{
@@ -119,15 +116,12 @@ body{
 
 .themeWeek, .themeWeek p{
   font-family: "comic sans", arial, "times new roman";
-  display: inline-block;
-  grid-row: 1/2;
 }
 
 .themeWeek p{
   padding: 5px;
   background: #77DD77;
   border-radius: 15px;
-  grid-row: 1/2;
 }
 
 .column .middle{
