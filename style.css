@@ -68,6 +68,7 @@ html{
 /* body */
 
 body{
+  display: grid;
   backround-color: #fffafa;
   min-height: 100%;
   display: flex;
@@ -75,14 +76,15 @@ body{
 }
 
 .column{
-  float: left;
+  display: grid;
+  grid-template-column: 3fr 1fr;
 }
 
 /* side */
 
 .column .side{
-  display: block;
-  width: 25%;
+  grid-column: 1/2;
+  grid-row: 1;
 }
 
 /* middle */
@@ -90,12 +92,14 @@ body{
 .welcomeLandingBackground{
   background-image: url(welcomeLanding.png);
   background-color: #262626;
+  grid-row: 1;
 }
 
 .welcomeLanding h1, p{
   font-family: "comic sans", arial, "times new roman";
   color: #fffafa;
   text-align: center;
+  grid-row: 1;
 }
 
 .middle p{
@@ -117,27 +121,19 @@ body{
 .themeWeek, .themeWeek p{
   font-family: "comic sans", arial, "times new roman";
   display: inline-block;
-  width: 100%;
-  height: auto;
-  vertical-align: middle;
+  grid-row: 1/2;
 }
 
 .themeWeek p{
   padding: 5px;
   background: #77DD77;
   border-radius: 15px;
+  grid-row: 1/2;
 }
 
 .column .middle{
-  display: block;
-  width: 75%;
+  grid-column: 1;
   background-color: #fffafa;
-}
-
-.row:after{
-  content: "";
-  display: table;
-  clear: both;
 }
 
 @media screen(max-width: 600px){
