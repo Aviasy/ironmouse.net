@@ -84,7 +84,6 @@ body{
 
 .column .side{
   grid-column: 1/2;
-  grid-row: 1;
 }
 
 /* middle */
@@ -133,7 +132,7 @@ body{
 
 .column .middle{
   grid-column: 1;
-  background-color: #fffafa;
+  background: #fffafa;
 }
 
 @media screen(max-width: 600px){
