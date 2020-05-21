@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "comic sans", arial, "times new roman";
+}
+
+a{
+  font-style: none;
+  font-family: "comic sans", arial, "times new roman";
+}
+
+/*  */
+
+/* Header */
+
+header{
+  background-image: url();
+  background-color: #262626;
+  color: #fffafa;
+  text-align: center;
+  padding: 20px;
+}
+
+.copywrite p{
+  float: left;
+  margin-left: 2px;
+  color: #d3d3d3;
+  font-size: 10px;
+}
+/* Navigation Bar */
+
+nav{
+  background: #ff395b;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.innerNavContainer{
+  width: 90%;
+}
+
+.navigation{
+  float: right;
+}
+
+.innerNavContainer .navigation a{
+  font-weight: bold;
+  color: #fffafa;
+  float: left;
+  display: inline-block;
+  padding: 15px;
+}
+
+/* Content */
+
+body{
+  overflow-y: hidden;
+  background-color: #fffafa;
+  display: grid;
+}
+
+.contentContainer{
+  grid-column-gap: 5px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.card{
+  background: #262626;
+  border-bottom-right-radius: 25px;
+}
+
+.sDisclaimer{
+  background: #ddd;
+  text-align: center;
+  color: #262626;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sDisclaimer a{
+  color: #77dd77;
+}
+
+.nestUpdate{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.nestUpdate .up1{
+  margin-left: 5px;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  border-radius: 25px;
+}
+
+.nestUpdate .up1 iframe{
+  border-radius: 25px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.nestUpdate .up2{
+  text-align: center;
+}
+
+.nestUpdate .up2 textarea{
+  border-radius: 10px;
+  font-size: 12px;
+  height: 80%;
+}
+
+.sBanner{
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  grid-column: 2;
+  grid-row: 2/4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ddd;
+}
+
+.nestMitb{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.nestMitb .mitb1{
+  text-align: center;
+}
+
+.nestMitb .mitb1 textarea{
+  border-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+  height: 80%;
+}
+
+.nestMitb .mitb2{
+  border-radius: 25px;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.nestMitb .mitb2 iframe{
+  border-radius: 25px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.nestMitb, .nestUpdate{
+  margin-top: 10px;
+}
+
+/* Footer */
+
+footer{
+  background-color: #262626;
+}
+
+.innerFoot .logo img{
+  position: absolute;
+  padding: 11px;
+  width: auto;
+  height: 80px;
+}
+
+.directs{
+  float: left;
+  display: inline-block;
+  padding: 20px;
+  margin-left: 20%;
+}
+
+.directs a, li{
+  text-align: center;
+  font-size: 18px;
+  color: #fffafa;
+}

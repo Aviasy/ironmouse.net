@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
+  new Crate({
+    server: '711509561336528917', // Test Server
+    channel: '711509561336528920',
+    channel: '711752765637918791',
+    channel: '711752776916402196' // #general
+  })
+</script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Live feed from Mousey, on ironmouse.tk</title>
+    <style media="screen">
+      body{
+        background-color: #000;
+      }
+
+      .twitchEmbed{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      nav{
+        background: #000;
+      }
+    </style>
+  </head>
+
+  <body>
+        <!-- Navigation Bar -->
+    <nav>
+      <div class="innerNavContainer">
+        <ul class="navigation">
+          <a href="index.html"><li>Home</li></a>
+          <a href="media.html"><li>Media</li></a>
+          <a href="about.html"><li>About</li></a>
+          <a href="live.html"><li>Live</li></a>
+        </ul>
+      </div>
+    </nav>
+    <div class="twitchEmbed">
+    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 1152,
+        height: 648,
+        channel: "ironmouse",
+        // only needed if your site is also embedded on embed.example.com and othersite.example.com
+        parent: ["embed.example.com", "othersite.example.com"]
+      });
+    </script>
+		</div>
+  </body>
+</html>
